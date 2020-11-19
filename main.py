@@ -5,6 +5,7 @@ from colors import color_list
 turtle_module.colormode(255)
 tim = turtle_module.Turtle()
 tim.speed("fastest")
+tim.hideturtle()
 tim.penup()
 
 tim.setheading(225)
